@@ -19,16 +19,6 @@ We want to build a method whose signature is like written in the class (availabi
 The return value of the method should be something like given in the return_example.json file.
 The format does not have to be JSON, it can be any kind of object you prefer, as soon as the organization is good.
 
-Example
-========
-Here is what happens in the src.Content.java file :
-
-Let's take a company called "Plomberie FAURE", it put in the platform that it is usually available every week on Friday from 10:30 to 14:00. A resident has scheduled an intervention on Friday July 8th from 11:30 to 12:30 with it. Another resident wishes to know when the company is available from the 4th to the 10th of July. The answer should be that the company is available Friday, July 8th from 10:30 to 11:30 and from 12:30 to 14:00. For the test, we will assume that the algorithm returns an array with available windows/slots in the calendar, like described in the src.Content.java file.
-
 Tests
 ========
 Using library "junit 1.5"
-
-Details
-=======
-If there is no opening or busy event for a certain window, that means the company is not available.
