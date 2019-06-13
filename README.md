@@ -1,4 +1,4 @@
-# Transfer Treatment 💸
+# Company Planning 📅
 
 ## Context
 We are building a method that will allow the providers connected to our platform to handle their interventions in their calendar.
